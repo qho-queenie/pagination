@@ -22,6 +22,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  .table, td, td{
+    border: 1px solid;
+  }
 }
 
 .App-link {
