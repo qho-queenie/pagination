@@ -1,3 +1,16 @@
+#Pagination
+- JSON placeholder
+
+### Description:
+A React component that renders a table with pagination:
+- fetch data from JSON placeholder /users, with the the query params page and limit
+- Total number of entries is provided 
+- Table body is initially populated with the first page of data
+- 4 buttons for pagination navigation: First, Previous, Next and Last
+- The buttons are disabled when data is being loaded.
+- First and Previous buttons are disabled when currently on the first page
+- Next and Last buttons are disabled when currently on the last page
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
