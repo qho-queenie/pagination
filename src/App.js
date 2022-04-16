@@ -29,7 +29,7 @@ const App = () => {
 
   useEffect(() => {
     APICall()
-  }, [currentPage]);
+  }, [currentPage, APICall]);
 
   return (
     <div className="App">
